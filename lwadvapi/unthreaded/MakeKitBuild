@@ -25,6 +25,6 @@ make()
                 lwunistr/lwunistr \
                 time/time" \
             LDFLAGS="$DIRECT_FLAGS" \
-            LIBDEPS="$LIB_RT"
+            LIBDEPS="$LIB_RT dl"
     mk_multiarch_done
 }
